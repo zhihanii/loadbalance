@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/bytedance/gopkg v0.0.0-20230728082804-614d0af6619b
-	github.com/zhihanii/registry v0.0.4
+	github.com/zhihanii/registry v0.0.5
 )
 
 require (
@@ -13,6 +13,7 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
+	github.com/zhihanii/discovery v0.0.2 // indirect
 	github.com/zhihanii/zlog v0.0.1 // indirect
 	go.etcd.io/etcd/api/v3 v3.5.9 // indirect
 	go.etcd.io/etcd/client/pkg/v3 v3.5.9 // indirect

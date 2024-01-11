@@ -72,9 +72,8 @@ func (f *BalancerFactory) buildBalancer(target string) (*Balancer, error) {
 }
 
 type Balancer struct {
-	m  *BalancerFactory
-	lb LoadBalancer
-	//resolver discovery.Resolver
+	m        *BalancerFactory
+	lb       LoadBalancer
 	resolver registry.Resolver
 	target   string
 	res      atomic.Value

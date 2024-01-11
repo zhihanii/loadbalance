@@ -12,8 +12,6 @@ type Picker interface {
 type LoadBalancer interface {
 	GetPicker(discovery.Result) Picker
 	Name() string
-	//Rebalance(discovery.Result)
-	//Delete(discovery.Result)
 }
 
 //type Rebalancer interface {
